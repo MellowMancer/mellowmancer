@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Data Analyst",
+        "tag": "Data Analyst Intern",
+        "technologies": ["Embedded C++", "ReactJS", "Flask", "Firebase", "Godot Engine"],
+        "description": "This is a web development project.",
+        "image_path": "/images/project-one.png"
+    },
+    {
+        "title": "Full Stack Web Developer",
+        "tag": "Full Stack Web Developer",
+        "technologies": ["Python", "Tensorflow", "OpenCV", "Numpy", "Pandas", "Flask", "HTML", "CSS", "JavaScript"],
+        "description": "This is a mobile app project.",
+        "image_path": "/images/project-two.png"
+    }
+]

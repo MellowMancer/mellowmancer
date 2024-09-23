@@ -14,6 +14,16 @@
   }
 }
 
+@layer base {
+  .font-outline-2 {
+    /* -webkit-text-stroke: 1px var(--text-color); */
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  }
+  .font-outline-4 {
+    -webkit-text-stroke: 2px var(--text-color);
+  }
+}
+
 html{
   scroll-behavior: smooth !important;
 }
@@ -38,6 +48,7 @@ html{
   --secondary-background-color: #767c83;
   --shadow-color: rgba(118, 124, 131, 0.4);
   --text-color: #343232;
+  --secondary-text-color: #626262;
   --primary-color: #0788ce;
   --secondary-color: #135e8d;
   --accent-color: #1bafff;
@@ -45,15 +56,16 @@ html{
   --card-text-color: #fffaf5;
 
   /* Dark Mode */
-  /* --background-color: #202020;
+  --background-color: #202020;
   --text-color: #cdcbcb;
+  --secondary-text-color: #999898;
   --secondary-background-color: #a5afba;
   --shadow-color: #5ad3d34c;
   --primary-color: #5ad3d3;
   --secondary-color: #0075be;
   --accent-color: #1bd9ff;
   --card-background-color: #0a94fe66;
-  --card-text-color: #cdcbcbe7; */
+  --card-text-color: #cdcbcbe7;
 
 }
 
@@ -154,7 +166,7 @@ body{
 .project-container{
   width: 100%;
   transform-origin: right;
-  transform: rotateY(-20deg);
+  transform: rotateY(-25deg);
   transition: all 0.15s;
 }
 

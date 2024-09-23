@@ -1,0 +1,54 @@
+[
+    {
+        "title": "Woosh",
+        "tag": "The Smart Car Parking System",
+        "technologies": ["Embedded C++", "ReactJS", "Flask", "Firebase", "Godot Engine"],
+        "description": "This is a web development project",
+        "image_path": "/assets/images/project-one.png"
+        
+    },
+    {
+        "title": "Ishaara",
+        "tag": "A Gesture To Communication",
+        "technologies": ["Python", "Tensorflow", "OpenCV", "Numpy", "Pandas", "Flask", "HTML", "CSS", "JavaScript"],
+        "description": "This is a mobile app project",
+        "image_path": "/assets/images/project-two.png"
+    },
+    {
+        "title": "Waver",
+        "tag": "The Handsfree Device Controlling System",
+        "technologies": ["Python", "OpenCV", "Mediapipe", "Numpy", "VoiceRecognition"],
+        "description": "",
+        "image_path": "/assets/images/project-three.png"
+    },
+    {
+        "title": "Spring",
+        "tag": "Personal Wellbeing Companion",
+        "technologies": ["Flutter", "Flask", "Firebase"],
+        "description": "",
+        "image_path": "/assets/images/project-four.png"
+    },
+    {
+        "title": "TiNY SIM",
+        "tag": "Steganography-Based Information Manipulation",
+        "technologies": ["Python", "Django", "OpenCV", "HTML", "CSS", "JavaScript"],
+        "description": "",
+        "image_path": "/assets/images/project-five.png"
+    },
+    {
+        "title": "Face Pong",
+        "tag": "A Retro-Throwback!",
+        "technologies": ["Python", "OpenCV", "Mediapipe", "Numpy"],
+        "description": "",
+        "image_path": "/assets/images/project-six.png"
+    },
+    {
+        "title": "Count On Me",
+        "tag": "Attendance Tracker",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "description": "",
+        "image_path": "/assets/images/project-seven.png"
+    }
+
+
+]

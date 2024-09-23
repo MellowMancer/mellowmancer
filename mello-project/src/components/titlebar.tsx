@@ -91,7 +91,7 @@ export default function TitleBar({ titlelist }: { titlelist: string[] }) {
                 key={index}
                 ref={titleRefs[index]}
                 className={`title ${
-                  index > 4 ? "invisible" : ""
+                  title == "DUMMY" ? "invisible" : ""
                 } font-sans font-black text-3xl md:text-4xl lg:text-6xl -tracking-[.1rem] italic px-3 sm:px-4 md:px-6`}
                 onClick={() => {
                   scrollToTitle(index);
