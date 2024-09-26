@@ -153,10 +153,6 @@ body{
   transition: all 0.15s;
 }
 
-.list-tag:hover {
-  color: var(--primary-color);
-}
-
 .project-parent{
   direction: rtl;
   perspective: 1000px;

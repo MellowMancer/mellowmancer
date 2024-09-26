@@ -1,7 +1,6 @@
 import "../App.css";
 import "../index.css";
 import "../assets/back.svg";
-import ListItem from "../components/listItem";
 // import TitleBar from "../components/ui/titlebar";
 
 function Home() {

@@ -1,6 +1,7 @@
 import { useRef, useEffect } from "react";
 import Home from "../pages/Home";
 import Projects from "../pages/Projects";
+import Work from "../pages/Work";
 import SectionContainer from "./section_container";
 
 export default function TitleBar({ titlelist }: { titlelist: string[] }) {
@@ -107,6 +108,7 @@ export default function TitleBar({ titlelist }: { titlelist: string[] }) {
       </div>
       <div className="section-container overflow-y-scroll h-screen">
         <SectionContainer children={<Home />} id="home" />
+        <SectionContainer children={<Work />} id="work" />
         <SectionContainer children={<Projects />} id="projects" />
       </div>
     </>

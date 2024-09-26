@@ -1,15 +1,15 @@
 [
     {
-        "title": "Data Analyst",
-        "tag": "Data Analyst Intern",
-        "technologies": ["Embedded C++", "ReactJS", "Flask", "Firebase", "Godot Engine"],
+        "company": "Dell Technologies",
+        "role": "Data Analyst Intern",
+        "technologies": ["Python", "Numpy", "Pandas", "Matplotlib", "Seaborn", "Scikit-learn", "Jupyter", "SQL", "SSMS", "Excel"],
         "description": "This is a web development project.",
         "image_path": "/images/project-one.png"
     },
     {
-        "title": "Full Stack Web Developer",
-        "tag": "Full Stack Web Developer",
-        "technologies": ["Python", "Tensorflow", "OpenCV", "Numpy", "Pandas", "Flask", "HTML", "CSS", "JavaScript"],
+        "company": "K.J Somaiya College of Nursing",
+        "role": "Full Stack Web Developer",
+        "technologies": ["PHP", "Laravel", "Blade", "Tailwind CSS", "MySQL", "AWS"],
         "description": "This is a mobile app project.",
         "image_path": "/images/project-two.png"
     }
