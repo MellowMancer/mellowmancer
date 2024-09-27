@@ -1,5 +1,14 @@
 [
     {
+        "title": "'ello",
+        "tag": "The Portfolio",
+        "technologies": ["ReactTS", "Pure Creative Juice"],
+        "accomplishment": "Hey you are on this project right now, talk about recursion",
+        "description": "This is a web development project",
+        "image_path": "/assets/images/project-one.png"
+        
+    },
+    {
         "title": "Woosh",
         "tag": "The Smart Car Parking System",
         "technologies": ["Embedded C++", "ReactJS", "Flask", "Firebase", "Godot Engine"],

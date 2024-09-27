@@ -2,6 +2,8 @@ import { useRef, useEffect } from "react";
 import Home from "../pages/Home";
 import Projects from "../pages/Projects";
 import Work from "../pages/Work";
+import Contact from "../pages/Contact";
+import About from "../pages/About";
 import SectionContainer from "./section_container";
 
 export default function TitleBar({ titlelist }: { titlelist: string[] }) {
@@ -80,7 +82,7 @@ export default function TitleBar({ titlelist }: { titlelist: string[] }) {
 
   return (
     <>
-      <div className="w-full max-h-screen fixed top-0 z-50 bg-[color:var(--background-color)]">
+      <div className="w-full max-h-screen fixed top-0 z-50">
         <div
           ref={titleListRef}
           id="title-list"
@@ -108,8 +110,10 @@ export default function TitleBar({ titlelist }: { titlelist: string[] }) {
       </div>
       <div className="section-container overflow-y-scroll h-screen">
         <SectionContainer children={<Home />} id="home" />
-        <SectionContainer children={<Work />} id="work" />
+        {/* <SectionContainer children={<Work />} id="work" /> */}
         <SectionContainer children={<Projects />} id="projects" />
+        <SectionContainer children={<About />} id="about" />
+        <SectionContainer children={<Contact />} id="contact" />
       </div>
     </>
   );

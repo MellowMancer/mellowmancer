@@ -6,7 +6,7 @@ const App = () => {
   return (
     <>
     <div className="full-screen-div">
-      <TitleBar titlelist={["HOME", "WORK", "PROJECTS", "ARTWORK", "RESUME", "CONTACT", "DUMMY", "DUMMY", "DUMMY",]} />
+      <TitleBar titlelist={["HOME", "WORK", "PROJECTS", "ABOUT", "CONTACT", "ARTWORK", "DUMMY", "DUMMY", "DUMMY",]} />
     </div>
     </>
   );

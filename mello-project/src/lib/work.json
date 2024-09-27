@@ -1,16 +1,35 @@
 [
     {
-        "company": "Dell Technologies",
+        "company": "Dell Technologies, Bangalore",
         "role": "Data Analyst Intern",
+        "duration": "June 2024 - August 2024",
         "technologies": ["Python", "Numpy", "Pandas", "Matplotlib", "Seaborn", "Scikit-learn", "Jupyter", "SQL", "SSMS", "Excel"],
         "description": "This is a web development project.",
         "image_path": "/images/project-one.png"
     },
     {
-        "company": "K.J Somaiya College of Nursing",
+        "company": "K.J Somaiya College of Nursing, Sion",
         "role": "Full Stack Web Developer",
+        "duration": "July 2023 - Feb 2024",
         "technologies": ["PHP", "Laravel", "Blade", "Tailwind CSS", "MySQL", "AWS"],
         "description": "This is a mobile app project.",
         "image_path": "/images/project-two.png"
+    },
+    {
+        "company": "Claidroid Technologies, Thane",
+        "role": "Software Developer Intern",
+        "duration": "June 2023 - July 2023",
+        "technologies": ["Java", "Spring Boot", "Hibernate", "MySQL", "Postman", "Git"],
+        "description": "This is a web development project.",
+        "image_path": "/images/project-three.png"
+    },
+    {
+        "company": "Dummy"
+    },
+    {
+        "company": "Dummy"
+    },
+    {
+        "company": "Dummy"
     }
 ]

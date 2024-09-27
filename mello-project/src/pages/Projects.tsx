@@ -46,7 +46,7 @@ function Projects() {
       <div className="px-8 lg:px-16 grid grid-cols-12 items-end">
         <div className="row-span-full col-start-1 col-span-12 md:col-start-1 md:col-span-8 self-center z-10 align-center">
           <div className="list-parent-parent w-full mt-8 md:mt-4 md:w-full h-full justify-between">
-            <ul className="list-parent flex-column h-1/4 px-12 py-12 md:pl-12 md:pr-32 md:py-14 lg:pl-16 lg:py-16 justify-center content-start text-start mr-auto sm:leading-[5.5rem] md:leading-[6rem] lg:leading-[7rem] xl:leading-[8.5rem] 2xl:leading-[9.5rem] text-[4rem] md:text-[5rem] lg:text-[6rem] xl:text-[8rem] 2xl:text-[9rem] min-w-[30rem] overflow-y-scroll max-h-[80vh] border-b-2 border-t-2 border-[color: var(--secondary-background-color)]">
+            <ul className="list-parent flex-column h-1/4 px-12 py-12 md:pl-12 md:pr-32 md:py-14 lg:pl-16 lg:py-16 justify-center content-start text-start mr-auto sm:leading-[5.5rem] md:leading-[6rem] lg:leading-[7rem] xl:leading-[8.5rem] 2xl:leading-[9.5rem] text-[4rem] md:text-[5rem] lg:text-[6rem] xl:text-[8rem] 2xl:text-[9rem] min-w-[30rem] overflow-y-scroll max-h-[80vh] border-b-2 border-t-2 border-[color: var(--shadow-color)]">
               {item_list(handleHover)}
             </ul>
           </div>
@@ -81,7 +81,7 @@ function Projects() {
               <>
               <div></div>
               <div className="w-full text-right p-8 md:text-2xl lg:text-3xl xl:text-3xl font-bold">
-                Hover over a project to see the details
+                Hover over to see a preview, or click to view more details
               </div>
               </>
             )}
