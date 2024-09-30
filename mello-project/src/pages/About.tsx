@@ -1,8 +1,15 @@
-
 function About() {
-    return (
-        <div style={{ padding: '20px', fontFamily: 'Arial, sans-serif' }}>
-            <h1>About Me</h1>
+  return (
+    <div className="w-full h-full mx-20 py-10 flex justify-start border-4">
+      <div className="perspective-1000 w-1/2 h-full">
+        <h1 className="about h-full py-4 flex text-7xl font-sofia items-end font-bold border-2">
+          <div className="self-center">About&nbsp;</div>
+          <div className="-rotate-[90deg] origin-bottom-left ml-10 text-[2.8rem] self-center">
+            Me
+          </div>
+        </h1>
+      </div>
+      {/* <h1>About Me</h1>
             <section>
                 <h2>Introduction</h2>
                 <p>
@@ -23,9 +30,9 @@ function About() {
                 <p>
                     You can view my resume <a href="[Link to your resume]" target="_blank" rel="noopener noreferrer">here</a>.
                 </p>
-            </section>
-        </div>
-    );
-};
+            </section> */}
+    </div>
+  );
+}
 
 export default About;

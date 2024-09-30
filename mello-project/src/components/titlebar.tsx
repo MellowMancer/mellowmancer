@@ -4,7 +4,7 @@ import Projects from "../pages/Projects";
 import Work from "../pages/Work";
 import Contact from "../pages/Contact";
 import About from "../pages/About";
-import SectionContainer from "./section_container";
+import SectionContainer from "./SectionContainer";
 
 export default function TitleBar({ titlelist }: { titlelist: string[] }) {
   const titleRefs = titlelist.map(() => useRef<HTMLLIElement | null>(null));
