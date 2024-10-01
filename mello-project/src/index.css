@@ -247,7 +247,7 @@ body {
   transform-origin: right;
   transform: rotateY(-25deg);
   transition: all 0.1s;
-  animation: floating 10s ease-in-out infinite;
+  animation: floating 6s ease-in-out infinite;
 }
 
 
@@ -311,10 +311,6 @@ body {
     transform: rotateY(-25deg) scale(0.9) translateZ(-100px);
     transform-origin: center;
   }
-  10%{
-    transform: rotateY(40deg) scale(0.7) translateZ(0px);
-    transform-origin: center;
-  }
   40%{
     transform: rotateY(90deg) scale(0.7) translateZ(0px);
     transform-origin: center;
@@ -334,6 +330,6 @@ body {
 }
 
 .project-spin {
-  animation: spin 0.5s ease-out forwards; 
+  animation: spin 0.5s ease-in-out forwards; 
 }
 

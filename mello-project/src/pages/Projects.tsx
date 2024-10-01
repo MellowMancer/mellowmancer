@@ -40,18 +40,18 @@ function Projects() {
   const handleHover = (index: number | null) => {
     if (hoveredItemIndex !== index) {
       setIsAnimating(false); // Remove animation class
-
-      setTimeout(() => {
-        setHoveredItemIndex(index);
-      }, 400);
       
       setTimeout(() => {
-        setIsAnimating(true);
-      }, 200);
+        setHoveredItemIndex(index);
+      }, 280);
+      
+      setIsAnimating(true);
     }
   };
   const handleAnimationEnd = () => {
+    setTimeout(() => {
     setIsAnimating(false);
+    }, 50);
   };
 
   return (
@@ -63,7 +63,7 @@ function Projects() {
             <div className="md:hidden dir-ltr list-parent text-left font-sofia md:pl-12 md:pr-32 md:py-14 lg:pl-16 lg:py-16 mr-auto sm:leading-[5.5rem] md:leading-[6rem] lg:leading-[7rem] xl:leading-[8.5rem] 2xl:leading-[9.5rem] text-[4rem] md:text-[5rem] lg:text-[6rem] xl:text-[8rem] 2xl:text-[9rem] min-w-[30rem]">
                Projects
             </div>
-            <ul className="list-parent flex-column h-1/4 px-12 py-12 md:pl-12 md:pr-32 md:py-14 lg:pl-16 lg:py-16 justify-center content-start text-start mr-auto sm:leading-[5.5rem] md:leading-[6rem] lg:leading-[7rem] xl:leading-[8.5rem] 2xl:leading-[9.5rem] text-[4rem] md:text-[5rem] lg:text-[6rem] xl:text-[8rem] 2xl:text-[9rem] min-w-[30rem] overflow-y-scroll max-h-[80vh] border-b-2 border-t-2 border-[color: var(--shadow-color)]">
+            <ul className="list-parent flex-column h-1/4 px-12 py-12 md:pl-12 md:pr-32 md:py-14 lg:pl-16 lg:py-16 justify-center content-start text-start mr-auto sm:leading-[5.5rem] md:leading-[6rem] lg:leading-[7rem] xl:leading-[8.5rem] 2xl:leading-[9.5rem] text-[4rem] md:text-[5rem] lg:text-[6rem] xl:text-[8rem] 2xl:text-[9rem] min-w-[30rem] overflow-y-scroll max-h-[80vh]">
               {item_list(handleHover)}
             </ul>
           </div>

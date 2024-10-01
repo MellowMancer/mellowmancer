@@ -16,8 +16,7 @@ function Contact() {
       <div className="hidden md:flex flex-col text-start w-full">
         <h1 className="text-4xl font-sofia">Wanna Connect?</h1>
         <p>
-          Feel free to reach out to me with any questions or comments you may
-          have! I will do my best to respond to you as soon as possible.
+          Feel free to reach out to me with any questions or comments! I will do my best to respond as soon as possible.
         </p>
       </div>
     </div>
