@@ -1,36 +1,96 @@
 function About() {
   return (
-    <div className="w-full h-full mx-20 py-10 flex justify-start border-4">
-      <div className="perspective-1000 w-1/2 h-full">
-        <h1 className="about h-full py-4 flex text-7xl font-sofia items-end font-bold border-2">
-          <div className="self-center">About&nbsp;</div>
-          <div className="-rotate-[90deg] origin-bottom-left ml-10 text-[2.8rem] self-center">
-            Me
-          </div>
-        </h1>
+    <div className="about-page h-full max-w-screen md:p-16 md:px-20 mt-16">
+      <div className="about-card-wrapper perspective-1000 max-h-screen">
+        <div className="ml-8 about-card p-2 pt-4 md:p-8 md:pt-16 md:my-8 text-4xl md:text-7xl font-sofia font-bold border-2">
+          <h1 className="flex items-end self-start">
+            <div className="pl-8">About&nbsp;</div>
+            <div className="-rotate-[90deg] origin-bottom-left ml-10 md:text-[2.8rem]">
+              Me
+            </div>
+          </h1>
+        </div>
       </div>
-      {/* <h1>About Me</h1>
-            <section>
-                <h2>Introduction</h2>
-                <p>
-                    Hello! My name is [Your Name]. I am a [Your Job Title] with a passion for [Your Passion].
-                </p>
-            </section>
-            <section>
-                <h2>Skillset</h2>
-                <ul>
-                    <li>Skill 1</li>
-                    <li>Skill 2</li>
-                    <li>Skill 3</li>
-                    <li>Skill 4</li>
-                </ul>
-            </section>
-            <section>
-                <h2>Resume</h2>
-                <p>
-                    You can view my resume <a href="[Link to your resume]" target="_blank" rel="noopener noreferrer">here</a>.
-                </p>
-            </section> */}
+      <div className="about-content">
+        <div className="px-8 col-span-1">
+          Duis consectetur sint aliqua non cillum.Minim esse in sit do ullamco
+          officia minim deserunt. In Lorem fugiat pariatur nulla do velit ex
+          quis sit anim ea. Reprehenderit voluptate tempor sit eiusmod ipsum
+          anim irure elit. Velit pariatur non eu et dolor ad qui incididunt ea
+          ex. Ad minim reprehenderit aliquip officia fugiat nostrud consectetur
+          enim. Duis consectetur sint aliqua non cillum.Minim esse in sit do
+          ullamco officia minim deserunt. In Lorem fugiat pariatur nulla do
+          velit ex quis sit anim ea. Reprehenderit voluptate tempor sit eiusmod
+          ipsum anim irure elit. Velit pariatur non eu et dolor ad qui
+          incididunt ea ex. Ad minim reprehenderit aliquip officia fugiat
+          nostrud consectetur enim.
+        </div>
+        <div className="px-8 col-span-1">
+          Duis consectetur sint aliqua non cillum.Minim esse in sit do ullamco
+          officia minim deserunt. In Lorem fugiat pariatur nulla do velit ex
+          quis sit anim ea. Reprehenderit voluptate tempor sit eiusmod ipsum
+          anim irure elit. Velit pariatur non eu et dolor ad qui incididunt ea
+          ex. Ad minim reprehenderit aliquip officia fugiat nostrud consectetur
+          enim. Duis consectetur sint aliqua non cillum.Minim esse in sit do
+          ullamco officia minim deserunt. In Lorem fugiat pariatur nulla do
+          velit ex quis sit anim ea. Reprehenderit voluptate tempor sit eiusmod
+          ipsum anim irure elit. Velit pariatur non eu et dolor ad qui
+          incididunt ea ex. Ad minim reprehenderit aliquip officia fugiat
+          nostrud consectetur enim.
+        </div>
+        <div className="px-8 col-span-1">
+          Duis consectetur sint aliqua non cillum.Minim esse in sit do ullamco
+          officia minim deserunt. In Lorem fugiat pariatur nulla do velit ex
+          quis sit anim ea. Reprehenderit voluptate tempor sit eiusmod ipsum
+          anim irure elit. Velit pariatur non eu et dolor ad qui incididunt ea
+          ex. Ad minim reprehenderit aliquip officia fugiat nostrud consectetur
+          enim. Duis consectetur sint aliqua non cillum.Minim esse in sit do
+          ullamco officia minim deserunt. In Lorem fugiat pariatur nulla do
+          velit ex quis sit anim ea. Reprehenderit voluptate tempor sit eiusmod
+          ipsum anim irure elit. Velit pariatur non eu et dolor ad qui
+          incididunt ea ex. Ad minim reprehenderit aliquip officia fugiat
+          nostrud consectetur enim.
+        </div>
+        <div className="px-8 col-span-1">
+          Duis consectetur sint aliqua non cillum.Minim esse in sit do ullamco
+          officia minim deserunt. In Lorem fugiat pariatur nulla do velit ex
+          quis sit anim ea. Reprehenderit voluptate tempor sit eiusmod ipsum
+          anim irure elit. Velit pariatur non eu et dolor ad qui incididunt ea
+          ex. Ad minim reprehenderit aliquip officia fugiat nostrud consectetur
+          enim. Duis consectetur sint aliqua non cillum.Minim esse in sit do
+          ullamco officia minim deserunt. In Lorem fugiat pariatur nulla do
+          velit ex quis sit anim ea. Reprehenderit voluptate tempor sit eiusmod
+          ipsum anim irure elit. Velit pariatur non eu et dolor ad qui
+          incididunt ea ex. Ad minim reprehenderit aliquip officia fugiat
+          nostrud consectetur enim.
+        </div>
+        <div className="px-8 col-span-1">
+          Duis consectetur sint aliqua non cillum.Minim esse in sit do ullamco
+          officia minim deserunt. In Lorem fugiat pariatur nulla do velit ex
+          quis sit anim ea. Reprehenderit voluptate tempor sit eiusmod ipsum
+          anim irure elit. Velit pariatur non eu et dolor ad qui incididunt ea
+          ex. Ad minim reprehenderit aliquip officia fugiat nostrud consectetur
+          enim. Duis consectetur sint aliqua non cillum.Minim esse in sit do
+          ullamco officia minim deserunt. In Lorem fugiat pariatur nulla do
+          velit ex quis sit anim ea. Reprehenderit voluptate tempor sit eiusmod
+          ipsum anim irure elit. Velit pariatur non eu et dolor ad qui
+          incididunt ea ex. Ad minim reprehenderit aliquip officia fugiat
+          nostrud consectetur enim.
+        </div>
+        <div className="px-8 col-span-1">
+          Duis consectetur sint aliqua non cillum.Minim esse in sit do ullamco
+          officia minim deserunt. In Lorem fugiat pariatur nulla do velit ex
+          quis sit anim ea. Reprehenderit voluptate tempor sit eiusmod ipsum
+          anim irure elit. Velit pariatur non eu et dolor ad qui incididunt ea
+          ex. Ad minim reprehenderit aliquip officia fugiat nostrud consectetur
+          enim. Duis consectetur sint aliqua non cillum.Minim esse in sit do
+          ullamco officia minim deserunt. In Lorem fugiat pariatur nulla do
+          velit ex quis sit anim ea. Reprehenderit voluptate tempor sit eiusmod
+          ipsum anim irure elit. Velit pariatur non eu et dolor ad qui
+          incididunt ea ex. Ad minim reprehenderit aliquip officia fugiat
+          nostrud consectetur enim.
+        </div>
+      </div>
     </div>
   );
 }

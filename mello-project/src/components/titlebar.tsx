@@ -10,6 +10,7 @@ export default function TitleBar({ titlelist }: { titlelist: string[] }) {
   const titleRefs = titlelist.map(() => useRef<HTMLLIElement | null>(null));
   const titleListRef = useRef<HTMLDivElement | null>(null);
   let sections = useRef<Element[]>([]);
+  let sectionsChildRef = useRef<Element[]>([]);
 
   const scrollToTitle = (index: number) => {
     if (titleRefs[index].current) {
@@ -48,13 +49,16 @@ export default function TitleBar({ titlelist }: { titlelist: string[] }) {
 
     setActiveElement(0);
   }, []);
+  
 
   useEffect(() => {
+    sectionsChildRef.current = Array.from(document.getElementsByClassName("section-child"));
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          const index = sections.current.findIndex(
-            (section) => section === entry.target
+          const index = sectionsChildRef.current.findIndex(
+             (child) => child === entry.target
           );
           if (entry.isIntersecting) {
             setActiveNavItem(index);
@@ -68,14 +72,14 @@ export default function TitleBar({ titlelist }: { titlelist: string[] }) {
     );
 
     // Observe all sections
-    sections.current.forEach((section) => {
-      observer.observe(section);
+    sectionsChildRef.current.forEach((child) => {
+      if (child) observer.observe(child);
     });
 
     // Cleanup observer on component unmount
     return () => {
-      sections.current.forEach((section) => {
-        observer.unobserve(section);
+      sectionsChildRef.current.forEach((child) => {
+        if (child) observer.unobserve(child);
       });
     };
   }, [titleRefs]);

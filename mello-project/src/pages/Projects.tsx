@@ -51,7 +51,7 @@ function Projects() {
   const handleAnimationEnd = () => {
     setTimeout(() => {
     setIsAnimating(false);
-    }, 50);
+    }, 0);
   };
 
   return (
@@ -71,7 +71,7 @@ function Projects() {
         <div className="project-parent row-span-full col-start-5 col-span-9 self-center pr-4 md:pr-8 z-0 align-center">
         <div
               className={`project-container hidden md:flex md:flex-col items-end justify-between min-w-56 min-h-[32rem] ml-auto rounded-2xl shadow-xl ${
-                isAnimating && (hoveredItemIndex != null) ? 'project-spin' : ''
+                isAnimating ? 'project-spin' : ''
               }`}
               style={{
               backgroundImage:
