@@ -113,11 +113,11 @@ export default function TitleBar({ titlelist }: { titlelist: string[] }) {
         <div className="py-1 border-b-4 border-[color:var(--secondary-background-color)]"></div>
       </div>
       <div className="section-container overflow-y-scroll h-screen">
-        <SectionContainer children={<Home />} id="home" />
+        {/* <SectionContainer children={<Home />} id="home" /> */}
         {/* <SectionContainer children={<Work />} id="work" /> */}
         <SectionContainer children={<Projects />} id="projects" />
-        <SectionContainer children={<About />} id="about" />
-        <SectionContainer children={<Contact />} id="contact" />
+        {/* <SectionContainer children={<About />} id="about" /> */}
+        {/* <SectionContainer children={<Contact />} id="contact" /> */}
       </div>
     </>
   );
